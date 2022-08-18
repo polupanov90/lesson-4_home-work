@@ -34,5 +34,5 @@ function getArrowFunction() {
    }
 }
 
-const arrowFunction = getArrowFunction.call(user);
+const arrowFunction = getArrowFunction(user);
 arrowFunction();
